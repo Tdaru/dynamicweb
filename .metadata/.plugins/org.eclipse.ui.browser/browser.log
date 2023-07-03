@@ -1,0 +1,13 @@
+
+Jun 29, 2023 05:37:05.156 NEW SESSION
+Jun 29, 2023 05:37:05.276 [5664:12016:0629/053703.041:ERROR:device_event_log_impl.cc(222)] [05:37:03.042] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jun 29, 2023 05:40:45.705 [5664:12016:0629/054045.705:ERROR:extension_registrar.cc(533)] Failed to unregister service worker for extension efaidnbmnnnibpcajpcglclefindmkaj
+Jun 29, 2023 05:41:01.977 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Jul 03, 2023 12:36:11.733 NEW SESSION
+Jul 03, 2023 12:36:11.733 [10068:9344:0703/123611.726:ERROR:network_service_instance_impl.cc(541)] Network service crashed, restarting service.
+Jul 03, 2023 12:36:24.554 [10068:9344:0703/123624.554:ERROR:device_event_log_impl.cc(222)] [12:36:24.557] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jul 03, 2023 12:36:39.866 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Jul 03, 2023 12:45:33.997 [10068:10672:0703/124533.997:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+Jul 03, 2023 13:19:46.114 [10068:10672:0703/131946.114:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+Jul 03, 2023 13:20:32.804 [12700:7124:0703/132032.804:ERROR:device_event_log_impl.cc(222)] [13:20:32.804] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
