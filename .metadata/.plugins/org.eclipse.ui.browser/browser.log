@@ -11,3 +11,7 @@ Jul 03, 2023 12:36:39.866 INFO: Created TensorFlow Lite XNNPACK delegate for CPU
 Jul 03, 2023 12:45:33.997 [10068:10672:0703/124533.997:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
 Jul 03, 2023 13:19:46.114 [10068:10672:0703/131946.114:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
 Jul 03, 2023 13:20:32.804 [12700:7124:0703/132032.804:ERROR:device_event_log_impl.cc(222)] [13:20:32.804] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+
+Jul 04, 2023 11:48:59.832 NEW SESSION
+Jul 04, 2023 11:48:59.832 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Jul 04, 2023 11:56:11.224 [14676:1684:0704/115611.224:ERROR:device_event_log_impl.cc(222)] [11:56:11.223] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
