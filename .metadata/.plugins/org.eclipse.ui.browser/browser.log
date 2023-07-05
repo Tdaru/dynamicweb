@@ -15,3 +15,11 @@ Jul 03, 2023 13:20:32.804 [12700:7124:0703/132032.804:ERROR:device_event_log_imp
 Jul 04, 2023 11:48:59.832 NEW SESSION
 Jul 04, 2023 11:48:59.832 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
 Jul 04, 2023 11:56:11.224 [14676:1684:0704/115611.224:ERROR:device_event_log_impl.cc(222)] [11:56:11.223] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jul 04, 2023 13:22:28.170 [14676:1684:0704/132228.170:ERROR:device_event_log_impl.cc(222)] [13:22:28.170] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jul 04, 2023 14:05:07.998 [14676:12800:0704/140507.997:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+Jul 04, 2023 14:26:30.598 [14676:1684:0704/142630.596:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+Jul 04, 2023 14:32:23.431 [14676:15672:0704/143223.429:ERROR:leveldb_factory.cc(88)] Failed to open LevelDB database from C:\Users\tmc\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_mail.google.com_0.indexeddb.leveldb,Corruption: missing start of fragmented record(2)
+Jul 04, 2023 14:32:23.432 [14676:15672:0704/143223.429:ERROR:indexed_db_factory.cc(704)] Got corruption for { origin: https://mail.google.com, top-level site: https://google.com, nonce: <null>, ancestor chain bit: Same-Site }, missing start of fragmented record
+Jul 04, 2023 14:32:23.542 [14676:15672:0704/143223.542:ERROR:indexed_db_factory.cc(842)] IndexedDB recovering from a corrupted (and deleted) database.
+Jul 04, 2023 15:58:13.952 [14676:12800:0704/155813.952:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+Jul 04, 2023 16:42:28.960 [14676:12800:0704/164228.959:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
