@@ -1,8 +1,6 @@
 package com.register.online.login;
 
 import java.io.IOException;
-import java.io.PrintWriter;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -25,7 +23,7 @@ public class loginservlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		
 	
-		  PrintWriter out=response.getWriter();
+		
 		String username=   request.getParameter("username");
 		String place=request.getParameter("place");
 		String mobile=request.getParameter("mobile");
@@ -35,16 +33,9 @@ public class loginservlet extends HttpServlet {
 		e1.setPlace(place);
 		e1.setMobile(mobile);
 		
-		int status=registerdao.save(e1);//line must study//
+		registerdao.save(e1);//line must study//
 		
-		if(status>0)
-		{ 
-			
-			out.print("record save successfully");
-			request.getRequestDispatcher("register.html").include(request, response);
-			
-			
-		}
+		
 		
 	}
 
