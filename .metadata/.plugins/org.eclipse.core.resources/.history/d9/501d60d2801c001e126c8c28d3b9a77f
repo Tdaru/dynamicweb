@@ -45,9 +45,7 @@ public class loginservlet extends HttpServlet {
 			
 			
 		}
-		else
-		{out.print("not saved");}
-		out.close();
+		
 	}
 
 }
